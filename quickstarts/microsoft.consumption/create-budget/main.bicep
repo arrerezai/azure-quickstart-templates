@@ -14,7 +14,7 @@ param amount int = 1000
 ])
 param timeGrain string = 'Monthly'
 
-@description('The start date must be first of the month in YYYY-MM-DD format. Future start date should not be more than three months. Past start date should be selected within the timegrain preiod.')
+@description('The start date must be first of the month in YYYY-MM-DD format. Future start date should not be more than three months. Past start date should be selected within the timegrain period.')
 param startDate string
 
 @description('The end date for the budget in YYYY-MM-DD format. If not provided, we default this to 10 years from the start date.')
